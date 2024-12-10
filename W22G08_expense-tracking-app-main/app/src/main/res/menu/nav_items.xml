@@ -7,13 +7,22 @@
         -->
         <item
             android:id="@+id/month"
-            android:title="Month" />
+            android:title="Month"
+            android:icon="@drawable/baseline_month_24"/>
+
         <item
             android:id="@+id/year"
-            android:title="Year" />
+            android:title="Year"
+            android:icon="@drawable/baseline_month_24"/>
         <item
             android:id="@+id/day"
-            android:title="Choose a day" />
+            android:title="Choose day"
+            android:icon="@drawable/baseline_month_24" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="logout"
+            android:icon="@drawable/baseline_out_24"/>
 
     </group>
 </menu>

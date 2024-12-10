@@ -12,14 +12,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpenseTracker">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+            android:name=".BalanceActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchActivity" />
+
         <activity
-            android:name=".SignupActivity"
+            android:name=".IncomeActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ExpenseActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity"/>
+        <activity
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
             android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+
 
         <activity
             android:name=".LoginActivity"
